@@ -142,9 +142,13 @@ const Highlighter: React.FC = () => {
           </span>
         ))}
       </div>
-      <div id="actual-text" className="mt-5 h-full" onMouseUp={handleMouseUp}>
-        {state.actual_text}
-      </div>
+      <div
+  id="actual-text"
+  className="mt-5 h-full font-bold text-left text-[1.2rem]"
+  onMouseUp={handleMouseUp}
+>
+  {state.actual_text}  
+</div>
     </div>
   )
 }
